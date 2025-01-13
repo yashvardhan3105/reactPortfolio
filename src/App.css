@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .navbar_button {
+    position: absolute;
+    transform: translateY(-4vw) translateX(80vw);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .navbar_container {
+    padding-left: 10%;
+  }
+  .navbar_button {
+    position: absolute;
+    transform: translateY(-4vw) translateX(88vw);
+  }
+}
